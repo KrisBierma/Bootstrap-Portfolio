@@ -1,0 +1,175 @@
+/*nav bar*/
+.ul{
+    display:inline-block;
+    /*list-style:none;*/
+    overflow:hidden;
+    background-color:#ffffff;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:80px;
+    color:#777777;
+    z-index:1;
+    border: 1px solid #cccccc;
+}
+.li{
+    float:left;
+    padding-left:10px;
+}
+.liLeft{
+    float:left;
+    background-color:#4aaaa5;
+    height:80px;
+    text-align: center;
+    margin-left:150px;
+    margin-right:310px;
+ }
+ .liLeft a{
+    text-decoration: none;  
+    color:#ffffff;
+ }
+ .liLeft a:hover{color:#7ACCC8;}
+.li a{
+    display: block;
+    color:grey;
+    padding:29px 5px 29px 5px;
+    font-size:22px;
+    text-decoration: none;
+}
+.li a:hover{color:#4aaaa5;}
+/*words*/
+h1{
+    color:#ffffff;
+    font-size: 45px;
+    text-align:center;
+    text-decoration: none;
+    padding:17.5px;
+    font-family:'Georgia', 'Times New Roman', Times, serif;
+}
+h2{color:#4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+h3{
+    color:#4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size:32px;
+}
+h4{
+    color:#ffffff;
+    background-color:#4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+p, h5{
+    font-size:18px;
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height:28px;
+}
+/*footer*/
+footer p{
+    color:#ffffff;
+    font-size:12px;
+}
+footer{
+    background-color:#666666;
+    padding:20px;
+    text-align: center;
+}
+/*main sections*/
+#main{
+    margin-top:auto;
+    background-image:url("symphony.png");
+    background-color:#ffffff;
+    width:100%;
+    overflow: auto;
+    clear: both;
+    padding:10px 0 0 20px;
+    border: 1px solid #dddddd;
+    margin-top:80px;
+}
+.line{background-color:#4aaaa5;
+    height:4px;}
+article{
+    background-color:#ffffff;
+    float:left;
+    margin:40px 0 40px 130px;
+    width:650px;
+    height:auto;
+    border: 1px solid #eee;
+    padding:20px;
+}
+.portPic:hover{box-shadow:5px 5px 3px grey;}
+.profile{
+    float: left;
+    width:300px;
+    height:300px;
+    margin-right:15px;
+}
+aside{
+    background-color: #ffffff;
+    float: left;
+    width:270px;
+    border: 1px solid #eee;
+    margin:40px 0 0 40px;
+    padding:20px;
+}
+aside img{
+    width:80px;
+    margin:5px 3px 0 3px;
+}
+aside img:hover{box-shadow:5px 5px 3px grey;}
+/*portfolio*/
+.portPic{
+    width:305px;
+    height:225px;
+    /*margin-right:20px;*/
+}
+.container{
+    position:relative;
+    width:305px;
+    float: left;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+.title{
+    position:absolute;
+    bottom:8px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    width:305px;
+    font-size: 14px;
+    height:24px;
+    padding-top:7px;
+}
+/*form*/
+input[type=text] {
+    width:98%;
+    padding:5px;
+}
+button[type=submit]{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    padding:8px 18px 8px 18px;
+    border:none;
+    font-size:18px;
+}
+button[Type=submit]:hover{background-color:black;}
+textarea{
+    width:98%;
+    height:150px;
+    padding:5px;
+    font-size:12px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+hr{
+    border-color:lightgray;
+    border-width: .5px;
+    margin-bottom:15px;
+}
+body{
+    /*background-color: #4aaaa5; why is this needed??*/
+}
