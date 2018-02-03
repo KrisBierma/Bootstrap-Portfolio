@@ -84,6 +84,11 @@ hr{
 /* html, body{margin:0px;padding:0px;} */ */
 
 /*@media screen and (max-width:768px){
-    .article{width:100%}
-    .aside{width:100%}
+    .body{width:100%;}
+    .article{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .aside{width:100%;}
+    .grey-box{width:100%;}
 }*/
