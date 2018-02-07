@@ -92,8 +92,8 @@ hr{
 }
 
 .portPic{
-    max-width:305px;
-    max-height:225px;
+    max-width:303px;
+    max-height:202px;   
 }
 .card-title{
     bottom:2px;
@@ -126,22 +126,22 @@ hr{
         margin:auto;
     }
 }
-@media screen and (max-width:760px){
+@media screen and (max-width:768px){
     .profilePic{
         float: left;
         margin-right:15px;}
-}
-@media screen and (max-width:576px){
     .article{
         margin-bottom:20px;
         margin-right:0;
     }
+    .aside{
+        margin-right:0;
+    }
+}
+@media screen and (max-width:576px){
     .navbar-brand{
         width:100%; 
         text-align: center;
-    }
-    .aside{
-        margin-right:0;
     }
     .navbar{
         position: static;
