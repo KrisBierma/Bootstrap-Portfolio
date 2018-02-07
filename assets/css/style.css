@@ -32,18 +32,15 @@ h1:hover{color:black;}
     padding:0px;
     background-color:white;
     z-index: 100;
-    /* background-color: green; */
 }
 a.nav-link {color:#4aaaa5;}
 a.nav-link:hover{color:black;}
 .nav-pills .nav-link.active{background-color:#ffa06f;}
-/* .nav{margin-right:50px;} */
 
 .grey-box{
     background-image:url("symphony.png");
     padding:30px 0 20px 20px; 
     border-top: 1px solid #dddddd;
-    /* height:100vh; */
     margin:0;
 }
 .profilePic{
@@ -60,7 +57,6 @@ a.nav-link:hover{color:black;}
     background-color: #ffffff;
     border: 1px solid #eee;
     padding:15px;
-    /* margin-left:15px; */
     margin-bottom:auto;
     margin-right:40px;
 }
@@ -96,8 +92,8 @@ hr{
 }
 
 .portPic{
-    width:305px;
-    height:225px;
+    max-width:305px;
+    max-height:225px;
 }
 .card-title{
     bottom:2px;
@@ -116,29 +112,39 @@ hr{
     margin-bottom:5px;
     margin-left:0;
     margin-right:0;
-    /* border:none; */
     width:305px;
     display:block;
-    /* float:none; */
 }
-/* .port-box{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-} */
-
 .form-row{margin-bottom:20px;}
 .btn{background-color:#4aaaa5; color:white;}
 
 
-@media screen and (max-width:967px){
-    .article{margin-bottom:20px;}
-    h3{font-size:24px;}
-    .navbar-brand{width:100%; text-align: center;/* doesn't work for medium screens*/
+@media screen and (max-width:910px){
+    .profilePic{
+        display:block;
+        float:none;
+        margin:auto;
     }
-    /* h1{color:red;} */
 }
-@media screen and (max-width:768px){
-    .article{margin-bottom:20px; width:100%;}
-    /* h1{color:black;} */
+@media screen and (max-width:760px){
+    .profilePic{
+        float: left;
+        margin-right:15px;}
 }
+@media screen and (max-width:576px){
+    .article{
+        margin-bottom:20px;
+        margin-right:0;
+    }
+    .navbar-brand{
+        width:100%; 
+        text-align: center;
+    }
+    .aside{
+        margin-right:0;
+    }
+    .navbar{
+        position: static;
+    }
+}
+    
