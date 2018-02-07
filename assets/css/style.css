@@ -73,13 +73,6 @@ a.nav-link:hover{color:black;}
     margin-left:0px;
     margin-right:0px;
 }
-.nothing{
-    padding:auto;
-    margin:auto;
-}
-.some{
-    padding:10px;
-}
 hr{
     border-color:lightgray;
     border-width: .5px;
@@ -113,18 +106,27 @@ hr{
     color:#ffffff;
     text-align: center;
     width:305px;
-    font-size: 14px;
+    font-size: 18px;
     height:28px;
-    padding-top:5px;
 }
 .card-img-overlay{
-    padding:0;
-    
-    
+    padding:0; 
 }
 .card{
-    margin:5px;
+    margin-bottom:5px;
+    margin-left:0;
+    margin-right:0;
+    /* border:none; */
+    width:305px;
+    display:block;
+    /* float:none; */
 }
+/* .port-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} */
+
 .form-row{margin-bottom:20px;}
 .btn{background-color:#4aaaa5; color:white;}
 
