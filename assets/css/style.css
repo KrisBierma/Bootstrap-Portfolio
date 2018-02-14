@@ -101,9 +101,10 @@ hr{
     background-color:#4aaaa5;
     color:#ffffff;
     text-align: center;
-    width:305px;
+    width:303px;
     font-size: 18px;
     height:28px;
+    margin-bottom:3px;
 }
 .card-img-overlay{
     padding:0; 
