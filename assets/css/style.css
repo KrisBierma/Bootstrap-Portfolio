@@ -7,14 +7,18 @@ h1{
     color:#ffffff;
     font-size: 45px;
     font-family:'Georgia', 'Times New Roman', Times, serif;
-    background-color:#4aaaa5;
+    background-color:#D81E23;
     padding:10px;
     margin-bottom:0px;
     line-height:1;
 }
 h2, h3{
-    color:#4aaaa5;
+    color:#D81E23;
 }
+.sliding{
+    overflow-y: hidden;
+}
+
 label{
     font-size:1.25rem;
     color:inherit;
@@ -24,18 +28,67 @@ label{
 }
 
 .navbar-brand{
-    background-color:#4aaaa5;
+    background-color:#D81E23;
     padding:.3125rem;
 }
 h1:hover{color:black;}
 .navbar{
     padding:0px;
-    background-color:white;
+    background-color:#D81E23;
     z-index: 100;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
-a.nav-link {color:#4aaaa5;}
+a.nav-link {color:white;}
 a.nav-link:hover{color:black;}
-.nav-pills .nav-link.active{background-color:#ffa06f;}
+.nav-pills .nav-link.active{
+    background-color:#D81E23;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2), 2px 5px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 75%;
+}
+
+.fab, .fas{
+    margin-right:10px;
+    /* color:#4aaaa5; */
+    color:black;
+    font-size:20px;
+}
+.tooltip{
+    position: relative;
+    display:inline-block;
+    /* border-bottom: 1px dotted black; */
+    opacity: 1;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width:100px;
+    background-color:#4aaaa5;
+    color:white;
+    font-size:16px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index:1;
+    bottom:115%;
+    left:64%;
+    margin-left:-55px;
+}
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4aaaa5 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
 
 .grey-box{
     background-image:url("symphony.png");
@@ -45,13 +98,20 @@ a.nav-link:hover{color:black;}
 }
 .profilePic{
     float: left;
-    margin-right:15px;
+    margin:11px;
+    border-radius:50%;
+    border:1px solid black;
+
 }
 .article{
     background-color:#ffffff;
     border: 1px solid #eee;
     padding:15px;
     margin-right:15px;
+    margin-bottom:200px;
+    /* border:1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .aside{
     background-color: #ffffff;
@@ -59,6 +119,9 @@ a.nav-link:hover{color:black;}
     padding:15px;
     margin-bottom:auto;
     margin-right:40px;
+    /* border:1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .aside img{
     width:60px;
@@ -80,10 +143,10 @@ hr{
     margin:0px;
 }
 .footer{
-    background-color:#666666;
+    background-color:grey;
     padding:20px;
     text-align: center;
-    border-top:5px solid #4aaaa5;
+    border-top:2px solid #D81E23;
     z-index:99;
 }
 .container-fluid{
@@ -98,7 +161,7 @@ hr{
 .card-title{
     bottom:2px;
     position: absolute;
-    background-color:#4aaaa5;
+    background-color:#D81E23;
     color:#ffffff;
     text-align: center;
     width:303px;
@@ -117,7 +180,7 @@ hr{
     display:block;
 }
 .form-row{margin-bottom:20px;}
-.btn{background-color:#4aaaa5; color:white;}
+.btn{background-color:#D81E23; color:white;}
 
 
 @media screen and (max-width:910px){
