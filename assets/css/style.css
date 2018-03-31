@@ -1,22 +1,68 @@
 p{
     font-size:18px;
-    color:#777777;
+    /* color:#777777; */
+    color:black;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 h1{
     color:#ffffff;
     font-size: 45px;
-    font-family:'Georgia', 'Times New Roman', Times, serif;
+    font-family: 'Caveat', cursive;
+    /* font-family:'Georgia', 'Times New Roman', Times, serif; */
     background-color:#D81E23;
     padding:10px;
     margin-bottom:0px;
     line-height:1;
+    /* text-align: center; */
 }
 h2, h3{
     color:#D81E23;
 }
-.sliding{
-    overflow-y: hidden;
+h2{
+    font-family: 'Caveat', cursive;
+    font-size:57px;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+h3{
+    font-size:50px;
+    color:black;    
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Georgia', 'Times New Roman', Times, serif; */
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+.scrollBody{
+    display:flex;
+}
+.scrolling{
+    overflow: hidden;
+    white-space:nowrap;
+}
+.scrolling1{
+    margin-top:5px;
+    animation:typing 3s steps(100, end);
+}
+.fadeIn{
+    animation-duration:5s;
+    animation-delay:2.5s;
+}
+.scrolling2{
+    animation:typing 2s 5s steps(100, end);
+    animation-fill-mode:backwards;
+    padding-right:5px;
+}
+@keyframes typing{
+    from {width:0}
+    to {width:100%}
+}
+
+.pancakes{
+    width:210px;
+    margin-top:20px;
+    animation-delay:3.5s;
 }
 
 label{
@@ -32,6 +78,7 @@ label{
     padding:.3125rem;
 }
 h1:hover{color:black;}
+
 .navbar{
     padding:0px;
     background-color:#D81E23;
@@ -41,7 +88,10 @@ h1:hover{color:black;}
     box-shadow: 0 8px 6px -6px #999;
 }
 a.nav-link {color:white;}
-a.nav-link:hover{color:black;}
+a.nav-link:hover{
+    background-color:#9d151a;
+    color:white;
+}
 .nav-pills .nav-link.active{
     background-color:#D81E23;
     box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2), 2px 5px 10px 0 rgba(0, 0, 0, 0.19);
@@ -49,10 +99,12 @@ a.nav-link:hover{color:black;}
 }
 
 .fab, .fas{
-    margin-right:10px;
+    /* margin-right:10px; */
+    padding:20px;
     /* color:#4aaaa5; */
-    color:black;
-    font-size:20px;
+    color:#D81E23;
+    /* color:black; */
+    font-size:40px;
 }
 .tooltip{
     position: relative;
@@ -63,7 +115,8 @@ a.nav-link:hover{color:black;}
 .tooltip .tooltiptext {
     visibility: hidden;
     width:100px;
-    background-color:#4aaaa5;
+    /* background-color:#4aaaa5; */
+    background-color: black;
     color:white;
     font-size:16px;
     text-align: center;
@@ -71,8 +124,8 @@ a.nav-link:hover{color:black;}
     padding: 5px 0;
     position: absolute;
     z-index:1;
-    bottom:115%;
-    left:64%;
+    bottom:85%;
+    left:57%;
     margin-left:-55px;
 }
 .tooltip .tooltiptext::after{
@@ -83,10 +136,13 @@ a.nav-link:hover{color:black;}
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #4aaaa5 transparent transparent transparent;
+    border-color: black transparent transparent transparent;
 }
 .tooltip:hover .tooltiptext{
     visibility: visible;
+}
+a:hover{
+    color:black;
 }
 
 
@@ -104,15 +160,41 @@ a.nav-link:hover{color:black;}
 
 }
 .article{
-    background-color:#ffffff;
+    background-color:#f5f5f5;
+    /* background-color:#fbfbfb; */
     border: 1px solid #eee;
     padding:15px;
     margin-right:15px;
     margin-bottom:200px;
     /* border:1px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
+
+.center{
+    text-align: center;
+}
+
+.sectionHome{
+    /* background-color:yellow; */
+    margin-top:35px;
+    margin-bottom:40px;
+}
+.sectionPort, .sectionBuild{
+    margin-top:80px;
+    margin-bottom:35px;
+    justify-content: center;
+}
+.sectionContact{
+    margin-top:79px;
+    margin-bottom:10px;
+    justify-content: center;
+}
+
+.divider{
+    margin-top:102px;
+}
+
+/* may not need */
 .aside{
     background-color: #ffffff;
     border: 1px solid #eee;
@@ -136,6 +218,7 @@ hr{
     border-color:lightgray;
     border-width: .5px;
     margin-bottom:15px;
+    margin-top:61px;
 }
 .footer p{
     color:#ffffff;
@@ -144,7 +227,7 @@ hr{
 }
 .footer{
     background-color:grey;
-    padding:20px;
+    padding:15px;
     text-align: center;
     border-top:2px solid #D81E23;
     z-index:99;
