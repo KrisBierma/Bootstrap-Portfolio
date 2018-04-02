@@ -82,11 +82,28 @@
                 <div class="row sectionPort"> <!--begin portfolio-->
                     <h3>Portfolio</h3>
                 </div>
+                <div class="center">
+                    <div class="btn-group" role="group" aria-label="App technologies">
+                    <!-- <div class="port-grid"> -->
+                        <button class="btn" id="all">Show all</button>  
+                        <button class="btn" id="javaScript">JavaScript</button>
+                        <button class="btn" id="jQuery">jQuery</button>
+                        <button class="btn" id="moment">Moment.js</button>
+                        <button class="btn" id="firebase">Firebase</button>
+                        <button class="btn" id="css">CSS</button>
+                        <button type="button" class="btn">Hi</button>
+
+                    <!-- </div> -->
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-md">
+
+                    <!-- grid holds all portfolio pics -->
+                    <div class="port-grid">
+                    <!-- <div class="col-md"> -->
 
                         <!-- hangman -->
-                        <div class="card mx-auto">
+                        <div class="card mx-auto" id="hangman">
                             <a href="https://krisbierma.github.io/Hangman-Game/" target="_blank">
                                 <img class="card-img portPic" src="assets/images/hangman-game.jpg" alt="Picture of hangman game">
                                 <div class="card-img-overlay">
@@ -118,12 +135,12 @@
                                     <p class="card-title">Calling All Gifs</p>
                                 </div></a>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
 
-                    <div class="col-md">
+                    <!-- <div class="col-md"> -->
 
                         <!-- crystal collector -->
-                        <div class="card mx-auto">
+                        <div class="card mx-auto" id="crystals">
                             <a href="https://krisbierma.github.io/week-4-game/" target="_blank">
                                 <img class="card-img portPic" src="assets/images/crystals-game.png" alt="Picture of crystal collector game">
                                 <div class="card-img-overlay">
@@ -139,7 +156,7 @@
                         </div>
 
                         <!-- trivia game -->
-                        <div class="card mx-auto">
+                        <div class="card mx-auto" id="trivia">
                             <a href="https://krisbierma.github.io/TriviaGame/" target="_blank">
                                 <img class="card-img portPic" src="assets/images/triviaGame.png" alt="Picture of science trivia game">
                                 <div class="card-img-overlay">
@@ -155,7 +172,7 @@
                         </div>
 
                         <!-- Train-Scheduler -->
-                        <div class="card mx-auto">
+                        <div class="card mx-auto" id="train">
                             <a href="https://krisbierma.github.io/Train-Scheduler/" target="_blank">
                                 <img class="card-img portPic" src="assets/images/train.jpg" alt="Picture of train scheduler app">
                                 <div class="card-img-overlay">
@@ -244,6 +261,12 @@
     <div class="footer">  
         <p>Copyright 2018 Kris Acker Bierma</p>
     </div> <!--end footer-->
+
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<script src="./assets/javaScript/logic.js"></script>
 
 </body>
 

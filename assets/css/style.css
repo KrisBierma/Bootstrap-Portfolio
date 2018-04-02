@@ -237,6 +237,11 @@ hr{
     padding:0;
 }
 
+.port-grid{
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+}
 .portPic{
     max-width:303px;
     max-height:202px;   
@@ -267,17 +272,37 @@ hr{
     top:0;
     right:0;
     left:0;
-    justify-content: center;
+    /* justify-content: center; */
 }
+.hide{
+    display:none;
+}
+.show{display:initial;}
 
 .form-row{margin-bottom:20px;}
-.btn{background-color:#D81E23; color:white;}
+.btn{
+    background-color:#D81E23; 
+    color:white;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active{
+    background-color: #056C00;
+}
+.btn-group>.btn:focus{
+    background-color:pink;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn-group{
+    margin-bottom: 20px;
+}
 
 /* portfolio language tags wrapper */
 .port-tags-wrapper{
     position: relative;
     display:flex;
-    align-items: center;
+    flex-wrap:wrap;
+    /* align-items: center; */
 }
 /* individual port tags */
 .port-tags{
