@@ -262,9 +262,49 @@ hr{
     width:305px;
     display:block;
 }
+.stay{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    justify-content: center;
+}
+
 .form-row{margin-bottom:20px;}
 .btn{background-color:#D81E23; color:white;}
 
+/* portfolio language tags wrapper */
+.port-tags-wrapper{
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+/* individual port tags */
+.port-tags{
+    background-color:#056C00;
+    color:white;
+    -moz-box-shadow:    inset 0 0 5px white;
+    -webkit-box-shadow: inset 0 0 5px white;
+    box-shadow:         inset 0 0 5px white;
+    display:inline-block;
+    transition:transform 1.2s cubic-bezier(.5, 1.55, .5, 1.5);
+    opacity: 0;
+    margin:20px auto;
+    font-size: 22px;
+    padding:0 8px 3px 8px;
+}
+
+/* what happens to the port pics when hovering */
+.card:hover .portPic{
+    opacity: .5;
+}
+.card:hover .port-tags-wrapper li{
+    transform: translateY(20px);
+    opacity: 1;
+}
+.card:hover .card-img-overlay{
+    display:none;
+}
 
 @media screen and (max-width:910px){
     .profilePic{

@@ -1,7 +1,5 @@
-# Bootstrap-Portfolio
+# Portfolio
  
-
-
 Kris Acker Bierma's portfolio. 
 
 ## Instructions
@@ -10,8 +8,8 @@ Includes pages telling about me, links to various projects I've done, and ways t
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - Makes it device-responsive
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Makes things pretty
+* [Bootstrap](https://getbootstrap.com/) - Makes it responsive
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Makes it pretty
 
 ## Author
 
