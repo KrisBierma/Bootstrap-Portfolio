@@ -26,12 +26,13 @@
         <nav class="navbar justify-content-around sticky-top">
             <!-- <a class="navbar-brand" href="index.html"> -->
                 <h1>Kris Acker Bierma</h1>
-            </a>
+            <!-- </a> -->
             <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <!-- add active -->
+                <!-- add active??????? -->
+
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#building_things">Building Things</a>
                 </li>
@@ -43,6 +44,9 @@
                 </li>
             </ul>
         </nav>
+
+        <button id="topBtn" class="btn" title="Go to the top"><i class="far fa fa-angle-double-up" aria-hidden="true"> </i> To the top</button>
+
 
         <div class="row grey-box nomar justify-content-center">
             <div class="col-md-8 col-sm-12 article">
@@ -62,7 +66,7 @@
 
                             <div class="center">
                                 <h4 class="animated fadeIn">Full-Stack Developer</h4>
-                                <a href="https://unsplash.com/photos/QDM6-fFKP0s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"><img src="assets/images/p2.jpg" alt="full stack of pancakes" class="img-fluid pancakes animated fadeIn center"></a>
+                                <a href="https://unsplash.com/photos/QDM6-fFKP0s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"><img src="assets/images/p3.jpg" alt="full stack of pancakes" class="img-fluid pancakes animated fadeIn center"></a>
                             </div>
                         </div>
                     </div>
@@ -86,12 +90,14 @@
                     <div class="btn-group" role="group" aria-label="App technologies">
                     <!-- <div class="port-grid"> -->
                         <button class="btn" id="all">Show all</button>  
-                        <button class="btn" id="javaScript">JavaScript</button>
-                        <button class="btn" id="jQuery">jQuery</button>
-                        <button class="btn" id="moment">Moment.js</button>
-                        <button class="btn" id="firebase">Firebase</button>
-                        <button class="btn" id="css">CSS</button>
-                        <button type="button" class="btn">Hi</button>
+                        <button class="btn portButtons" id="javaScript">JavaScript</button>
+                        <button class="btn portButtons" id="jQuery">jQuery</button>
+                        <button class="btn portButtons" id="Node.js">node.js</button>
+                        <button class="btn portButtons" id="Command-Line">Command Line</button>
+                        <button class="btn portButtons" id="moment">Moment.js</button>
+                        <button class="btn portButtons" id="firebase">Firebase</button>
+                        <button class="btn portButtons" id="css">CSS</button>
+                        <!-- <button type="button" class="btn portButtons">Hi</button> -->
 
                     <!-- </div> -->
                     </div>
@@ -101,6 +107,24 @@
                     <!-- grid holds all portfolio pics -->
                     <div class="port-grid">
                     <!-- <div class="col-md"> -->
+
+                        <!-- node.js / command line -->
+                        <div class="card mx-auto" id="node">
+                            <a href="node.html">
+                                <img class="card-img portPic" src="assets/images/node.png" alt="node.js / using the command line">
+                                <div class="card-img-overlay">
+                                    <p class="card-title">Node.js - Command Line<p>
+                                </div>
+                                <div class="stay">
+                                    <ul class="port-tags-wrapper">
+                                        <li class="port-tags">Node.js</li>
+                                        <li class="port-tags">Command-Line</li>
+                                        <li class="port-tags">JavaScript</li>
+
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
 
                         <!-- hangman -->
                         <div class="card mx-auto" id="hangman">
@@ -252,10 +276,10 @@
                                 //]]>
                                 </script>  
                     
-                <!-- </div>   -->
+                </div>  
 
             </div> <!--end article-->
-        </div>
+        </div><!--end grey box-->
     </div><!--end container fluid-->
 
     <div class="footer">  

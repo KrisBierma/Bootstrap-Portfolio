@@ -284,17 +284,33 @@ hr{
     background-color:#D81E23; 
     color:white;
 }
-.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active{
+/* .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active{
     background-color: #056C00;
-}
+} */
 .btn-group>.btn:focus{
-    background-color:pink;
+    background-color:#cc0000;
 }
 .btn:hover{
-    background-color: black;
+    background-color: #9d151a;
 }
 .btn-group{
     margin-bottom: 20px;
+}
+
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:30px;
+    z-index:100;
+    font-size:10px;
+}
+.topBtn:hover{background: color #9d151a;}
+.topBtnShow{
+    display:block !important;
+}
+.far{
+    color:white;
 }
 
 /* portfolio language tags wrapper */
@@ -306,17 +322,18 @@ hr{
 }
 /* individual port tags */
 .port-tags{
-    background-color:#056C00;
+    background-color:#2D8D89;
     color:white;
-    -moz-box-shadow:    inset 0 0 5px white;
-    -webkit-box-shadow: inset 0 0 5px white;
-    box-shadow:         inset 0 0 5px white;
+    -moz-box-shadow:    inset 0 0 5px grey;
+    -webkit-box-shadow: inset 0 0 5px grey;
+    box-shadow:         inset 0 0 5px grey;
     display:inline-block;
     transition:transform 1.2s cubic-bezier(.5, 1.55, .5, 1.5);
     opacity: 0;
     margin:20px auto;
     font-size: 22px;
     padding:0 8px 3px 8px;
+    border:2px solid grey;
 }
 
 /* what happens to the port pics when hovering */
@@ -325,11 +342,32 @@ hr{
 }
 .card:hover .port-tags-wrapper li{
     transform: translateY(20px);
+    /* transition-delay:1s; */
+    opacity: 1;
+}
+.transD{
+    transition-delay:1s;
+    transform: translateY(20px);
     opacity: 1;
 }
 .card:hover .card-img-overlay{
     display:none;
 }
+
+/* node.js carousel */
+.carousel-caption{
+    bottom:-32px;
+    right:0;
+    left:50%;
+    text-align: right;
+    background-color: black;
+    opacity: .8;
+    padding-bottom:15px;
+}
+.carousel-caption p{
+    color:white;
+}
+
 
 @media screen and (max-width:910px){
     .profilePic{
