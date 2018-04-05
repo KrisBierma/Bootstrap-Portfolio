@@ -123,6 +123,8 @@ $(document).ready(function(){
         document.documentElement.scrollTop=0;
     });
 
-
+    $(".navbar-collapse a").click(function(){
+        $(".navbar-collapse").collapse("toggle");
+    });
     
 })

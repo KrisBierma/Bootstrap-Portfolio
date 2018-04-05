@@ -87,6 +87,12 @@ h1:hover{color:black;}
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
 }
+
+/* .nav{
+    display: inline;
+    color:white;
+} */
+
 a.nav-link {color:white;}
 a.nav-link:hover{
     background-color:#9d151a;
@@ -96,6 +102,9 @@ a.nav-link:hover{
     background-color:#D81E23;
     box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2), 2px 5px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 75%;
+}
+.fal{
+    color:white;
 }
 
 .fab, .fas{
@@ -153,8 +162,8 @@ a:hover{
     margin:0;
 }
 .profilePic{
-    float: left;
-    margin:11px;
+    display: block;
+    margin:auto;
     border-radius:50%;
     border:1px solid black;
 
@@ -395,6 +404,12 @@ hr{
     }
     .navbar{
         position: static;
+    }
+    .scrolling2{
+        font-size:30px;
+    }
+    .btn-group{
+        flex-flow:wrap;
     }
 }
     
