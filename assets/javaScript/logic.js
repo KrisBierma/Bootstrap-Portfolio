@@ -50,17 +50,17 @@ $(document).ready(function(){
         console.log(currentCard.techs);
         for (var i=0; i<currentCard.techs.length; i++){
             console.log("calling"+currentCard.techs[i]);
-            var addDrop = setInterval
-            (transitionDown,1000);
+            // var addDrop = setInterval(transitionDown,1000);
         }
     });
 
-    function transitionDown (){
-        // for (techs in currentCard){
-            console.log(currentCard.techs);
-            $(".port-tags-wrapper li").addClass("transD");
-        // }
-    }
+    // function transitionDown (){
+    //     // for (techs in currentCard){
+    //         console.log(currentCard);
+    //         console.log(currentCard.techs);
+    //         $(".port-tags-wrapper li").addClass("transD");
+    //     // }
+    // }
 
     //turn off port-tags dropping down when mouse is off
     $(".card").on("mouseout", function(){
