@@ -31,7 +31,7 @@
                     <span><i class="fal fa-bars fa"></i></span>
                 </button>
                 
-                <div class="collapse navbar-collapse justify-content-end" id="navColl">
+                <div class="collapse navbar-collapse" id="navColl">
                     <ul class="nav navbar-nav text-right float-right pr-3">
                         <li class="nav-item">
                             <a class="nav-link" href="#building_things">Building Things</a>
@@ -60,9 +60,9 @@
                     </div>
 
                     <div class="col-md">
-                        <div class="row justify-content-center">
-                            <div class="scrollBody">
-                                <h2 class="scrolling scrolling1">Hi! I'm Kris.</h2>
+                        <div class="row justify-content-center change">
+                            <div class="scrollBody1">
+                                <h2 class=" scrolling1">Hi! I'm Kris.</h2>
                             </div>
                             <br>
 
@@ -75,8 +75,9 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="scrollBody">
-                        <h2 class="scrolling scrolling2">Turning others' ideas into reality</h2> 
+                    <div class="scrollBody2">
+                        <h2 class=" scrolling2">Turning others' ideas into reality</h2> 
+                        <h2 id="mission" class="animated fadeIn">Turning others' ideas into reality</h2>
                     </div>
                 </div>
 
@@ -87,8 +88,31 @@
                 <!-- portfolio section -->
                 <div class="row sectionPort"> <!--begin portfolio-->
                     <h3>Portfolio</h3>
+
+                    <!--btn-menu - show on sm screens-->
+                    <div class="btn-collapse">
+                        <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target=".portfolio-collapse" aria-controls="portCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fal fal-port fa-bars fa"></i></span>
+                        </button>
+                        
+                        <div class="collapse portfolio-collapse justify-content-end" id="portCollapse">
+                            <ul class="text-right float-right pr-3">
+                                <li id="allHamburger">Show all</li>
+                                <li class="portColl" id="javaScript">JavaScript</li>
+                                <li class="portColl" id="jQuery">jQuery</li>
+                                <li class="portColl" id="Node.js">node.js</li>
+                                <li class="portColl" id="Command-Line">Command Line</li>
+                                <li class="portColl" id="moment">Moment.js</li>
+                                <li class="portColl" id="firebase">Firebase</li>
+                                <li class="portColl" id="css">CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="center">
+
+                    <!--btn-group - show on md screens-->
                     <div class="btn-group" role="group" aria-label="App technologies">
                     <!-- <div class="port-grid"> -->
                         <button class="btn" id="all">Show all</button>  
@@ -100,9 +124,9 @@
                         <button class="btn portButtons" id="firebase">Firebase</button>
                         <button class="btn portButtons" id="css">CSS</button>
                         <!-- <button type="button" class="btn portButtons">Hi</button> -->
-
                     <!-- </div> -->
                     </div>
+
                 </div>
                 <div class="row">
 
@@ -119,9 +143,10 @@
                                 </div>
                                 <div class="stay">
                                     <ul class="port-tags-wrapper">
+
                                         <li class="port-tags">Node.js</li>
-                                        <li class="port-tags">Command-Line</li>
-                                        <li class="port-tags">JavaScript</li>
+                                        <li id="li2" class="port-tags">Command-Line</li>
+                                        <li id="li3" class="port-tags">JavaScript</li>
 
                                     </ul>
                                 </div>
@@ -136,9 +161,9 @@
                                     <p class="card-title">Hangman Game - Colors Edition<p>
                                 </div>
                                 <div class="stay">
-                                    <ul class="port-tags-wrapper">
+                                    <ul id="hangmanUl" class="port-tags-wrapper">
                                         <li class="port-tags">Bootstrap</li>
-                                        <li class="port-tags">Javascript</li>
+                                        <li id="li2" class="port-tags">Javascript</li>
                                     </ul>
                                 </div>
                             </a>
@@ -175,7 +200,7 @@
                                 <div class="stay">
                                     <ul class="port-tags-wrapper">
                                         <li class="port-tags">javaScript</li>
-                                        <li class="port-tags">jQuery</li>
+                                        <li id="li2" class="port-tags">jQuery</li>
                                     </ul>
                                 </div>    
                             </a>
@@ -207,9 +232,9 @@
                                 <div class="stay">
                                     <ul class="port-tags-wrapper">
                                         <li class="port-tags">JavaScript</li>
-                                        <li class="port-tags">jQuery</li>
-                                        <li class="port-tags">Moment.js</li>
-                                        <li class="port-tags">Firebase</li>
+                                        <li id="li2" class="port-tags">jQuery</li>
+                                        <li id="li3" class="port-tags">Moment.js</li>
+                                        <li id="li4" class="port-tags">Firebase</li>
                                     </ul>
                                 </div>
                             </a>

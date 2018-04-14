@@ -32,44 +32,17 @@ $(document).ready(function(){
 
     //show all apps on all button
     $("#all").on("click", function(){
+        console.log("work");
         showBtn();
     });
 
-    //add transition-delay to port-tags when hovering
-    var currentCard;
-    $(".card").one("mouseover", function(){
-        currentCard = this.id;
-        console.log(currentCard);
-        for (var i=0; i<portPics.length; i++){
-            if (portPics[i].name === currentCard){
-                currentCard = portPics[i];
-                console.log(currentCard);
-            }
-        }
-        // console.log(this);
-        console.log(currentCard.techs);
-        for (var i=0; i<currentCard.techs.length; i++){
-            console.log("calling"+currentCard.techs[i]);
-            // var addDrop = setInterval(transitionDown,1000);
-        }
+    $("#allHamburger").on("click", function(){
+        console.log("work");
+        showBtn();
     });
 
-    // function transitionDown (){
-    //     // for (techs in currentCard){
-    //         console.log(currentCard);
-    //         console.log(currentCard.techs);
-    //         $(".port-tags-wrapper li").addClass("transD");
-    //     // }
-    // }
-
-    //turn off port-tags dropping down when mouse is off
-    $(".card").on("mouseout", function(){
-        $(".port-tags-wrapper li").removeClass("transD");
-
-    })
-
     //show apps using this button's technology
-    $(".portButtons").on("click", function(){
+    $(".portButtons, .portColl").on("click", function(){
         currentBtn = this.id;
                 console.log(currentBtn);
 
@@ -80,7 +53,7 @@ $(document).ready(function(){
     function showBtn(){
         for (var i=0; i<portPics.length; i++){
             var currentPort=portPics[i];
-            // console.log(currentPort);
+            console.log(currentPort);
             $(currentPort.location).addClass("show");
         }
     }
@@ -109,7 +82,7 @@ $(document).ready(function(){
 
     //show "to the top" button when scrolling
     window.onscroll=function(){
-        if (      document.documentElement.scrollTop > 500){
+        if (document.documentElement.scrollTop > 500){
             $("#topBtn").addClass("topBtnShow").removeClass("hide");
         }
         else {
@@ -127,4 +100,8 @@ $(document).ready(function(){
         $(".navbar-collapse").collapse("toggle");
     });
     
+    $(".portfolio-collapse li").click(function(){
+        $(".portfolio-collapse").collapse("toggle");
+    });
+
 })
