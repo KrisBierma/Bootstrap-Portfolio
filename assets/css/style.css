@@ -424,12 +424,12 @@ hr{
     .btn-group{
         display: none;
     }
-    .btn-collapse{
+    /* .btn-collapse{
         display:inline-block; 
-    }
-    .sectionPort{
+    } */
+    /* .sectionPort{
         justify-content: left;
-    }
+    } */
 }
 @media screen and (max-width:768px){
     .profilePic{
@@ -442,9 +442,53 @@ hr{
     .aside{
         margin-right:0;
     }
+    /* hr{
+        display: none;
+    } */
+    /* .scrollBody1{
+        width:240px;
+        margin:auto;
+    }
+    .scrolling2{
+        display:none;
+    }
+    #mission{
+        display:block;
+        text-align: center;
+    }
+    .change{
+        display: inherit;
+    } */
+    /* portfolio menu section */
+    /* .btn-collapse{
+        display:inline-block; 
+    }
+    .sectionPort{
+        justify-content: left;
+    } */
+}
+@media screen and (max-width:576px){
+    .navbar-brand{
+        width:100%; 
+        text-align: center;
+    }
+    .navbar{
+        position: static;
+    }
     hr{
         display: none;
     }
+    /* .scrolling2{
+        display:none;
+    }
+    #mission{
+        text-align: center;
+    } */
+    .profilePic{
+        float:none;
+        margin:auto;
+    }
+    
     .scrollBody1{
         /* justify-content: center; */
         width:240px;
@@ -460,25 +504,12 @@ hr{
     .change{
         display: inherit;
     }
-}
-@media screen and (max-width:576px){
-    .navbar-brand{
-        width:100%; 
-        text-align: center;
+    /* portfolio menu section */
+    .btn-collapse{
+        display:inline-block; 
     }
-    .navbar{
-        position: static;
-    }
-    .scrolling2{
-        display:none;
-    }
-    #mission{
-        /* display:block; */
-        text-align: center;
-    }
-    .profilePic{
-        float:none;
-        margin:auto;
+    .sectionPort{
+        justify-content: left;
     }
 }
     
