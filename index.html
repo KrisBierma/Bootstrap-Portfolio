@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/faviconK.ico" type="image/x-icon">
     <link rel="icon" href="assets/images/faviconK.ico" type="image/x-icon">
+
 </head>
 
 <body>
@@ -119,11 +120,14 @@
                         <button class="btn portButtons" id="javaScript">JavaScript</button>
                         <button class="btn portButtons" id="jQuery">jQuery</button>
                         <button class="btn portButtons" id="Node.js">node.js</button>
+                        <button class="btn portButtons" id="bootstrap">Bootstrap</button>
                         <button class="btn portButtons" id="Command-Line">Command Line</button>
                         <button class="btn portButtons" id="moment">Moment.js</button>
                         <button class="btn portButtons" id="firebase">Firebase</button>
-                        <button class="btn portButtons" id="css">CSS</button>
-                        <!-- <button type="button" class="btn portButtons">Hi</button> -->
+                        <button class="btn portButtons" id="Express">Express</button>
+                        <button class="btn portButtons" id="MySQL">MySQL</button>
+                        <button class="btn portButtons" id="Heroku">Heroku</button>
+                        <button class="btn portButtons" id="Full Stack">Full Stack</button>
                     <!-- </div> -->
                     </div>
 
@@ -134,18 +138,18 @@
                     <div class="port-grid">
                     <!-- <div class="col-md"> -->
 
-                        <!-- node.js / command line -->
-                        <div class="card mx-auto" id="node">
-                            <a href="node.html">
-                                <img class="card-img portPic" src="assets/images/node.png" alt="node.js / using the command line">
+                        <!-- liri / command line -->
+                        <div class="card mx-auto" id="liri">
+                            <a href="node.html" target="_blank" >
+                                <img class="card-img portPic" src="assets/images/node.png" alt="liri / using the command line">
                                 <div class="card-img-overlay">
-                                    <p class="card-title">Node.js - Command Line<p>
+                                    <p class="card-title">Liri - Command Line<p>
                                 </div>
                                 <div class="stay">
                                     <ul class="port-tags-wrapper">
 
                                         <li class="port-tags">Node.js</li>
-                                        <li id="li2" class="port-tags">Command-Line</li>
+                                        <li id="li2" class="port-tags">Command Line</li>
                                         <li id="li3" class="port-tags">JavaScript</li>
 
                                     </ul>
@@ -215,8 +219,10 @@
                                 </div>
                                 <div class="stay">
                                     <ul class="port-tags-wrapper">
-                                        <!-- <li class="port-tags">Bootstrap</li> -->
-                                        <li class="port-tags">Javascript</li>
+                                        <li class="port-tags">Bootstrap</li>
+                                        <li id="li2" class="port-tags">Javascript</li>
+                                        <li id="li3" class="port-tags">jQuery</li>
+
                                     </ul>
                                 </div>
                             </a>
@@ -239,6 +245,63 @@
                                 </div>
                             </a>
                         </div>
+
+                        <!-- My Veggie Eats -->
+                        <div class="card mx-auto" id="veggie">
+                            <a href="https://krisbierma.github.io/myVeggieEats/" target="_blank">
+                                <img class="card-img portPic" src="assets/images/veggie.png" alt="My veggie eats app">
+                                <div class="card-img-overlay">
+                                    <p class="card-title">My Veggie Eats</p>
+                                </div>
+                                <div class="stay">
+                                    <ul class="port-tags-wrapper">
+                                        <li class="port-tags">JavaScript</li>
+                                        <li id="li2" class="port-tags">jQuery</li>
+                                        <li id="li3" class="port-tags">Materialize</li>
+                                        <li id="li4" class="port-tags">Firebase</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- bamazon command-line -->
+                        <div class="card mx-auto" id="bamazon">
+                            <a href="bamazon.html" target="_blank">
+                                <img class="card-img portPic" src="assets/images/bamazon.png" alt="bamazon command line node.js app">
+                                <div class="card-img-overlay">
+                                    <p class="card-title">Bamazon - Command Line</p>
+                                </div>
+                                <div class="stay">
+                                    <ul class="port-tags-wrapper">
+                                        <li class="port-tags">JavaScript</li>
+                                        <li id="li2" class="port-tags">Node</li>
+                                        <li id="li3" class="port-tags">NPM packages</li>
+                                        <li id="li4" class="port-tags">MySQL</li>
+                                        <li id="li5" class="port-tags">Command Line</li>    
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Friend Finder -->
+                        <div class="card mx-auto" id="friendFinder">
+                            <a href="https://whispering-citadel-97898.herokuapp.com/" target="_blank">
+                                <img class="card-img portPic" src="assets/images/friendfinder.png" alt="friend finder app (full stack)">
+                                <div class="card-img-overlay">
+                                    <p class="card-title">Friend Finder</p>
+                                </div>
+                                <div class="stay">
+                                    <ul class="port-tags-wrapper">
+                                        <li class="port-tags">JavaScript</li>
+                                        <li id="li2" class="port-tags">jQuery</li>
+                                        <li id="li3" class="port-tags">Node.js</li>
+                                        <li id="li4" class="port-tags">Heroku</li>
+                                        <li id="li5" class="port-tags">Express</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                 </div><!--end portfolio-->
 
@@ -250,15 +313,88 @@
                 <div class="row sectionBuild"> <!--begin building things-->
                     <h3>Building things</h3>
                 </div>
-                <div>
-                    <p>
-                    I’m a web developer who has always liked logic games, writing analytical papers, putting together jigsaw puzzles, and creating projects for my students. I love asking questions and am an information junkie. In a way, coding takes a little bit of all these and mashes it together into a career fit for my personality. It’s precise, organized, puzzling, and it stretches the little grey cells to the limit.
-                    <br><br>
-                    My undergraduate degree in English - Creative Writing taught me to hone my writing and analyzing skills. The master’s in education and ten years of teaching taught me to analyze data to influence how I taught. I am used to breaking things down into manageable, well-thought-out steps, and I know how to think ahead to possible questions or problems which may arise. A University of Texas intensive coding bootcamp helped me hone front- and back-end technology skills and allowed me the opportunity to collaborate with other coders.
-                    <br><br>
-                    Over the years I’ve created, built, or produced many things, including literature guides, bathroom cabinets (I love power tools), and orchestrating twenty-two third graders’ individualized programs of study on iPads. Now I build other, slightly less tactile, things like My Veggie Eats, a useful app for finding vegetarian and vegetarian-friendly restaurants, and games like Science Trivia and Hangman, Colors Edition.  
-                    </p> 
-                </div> <!--end building things-->
+
+                <div class="circleWrapper">
+
+                    <div class="circle cir1">
+                        <div class="wordWrapper">
+                            <div id="circleText1"></div>
+                        </div>
+                        <div class="shapeCircle sc1"></div>
+                        <ul class="dw1">
+                            <li><u>The Mind</u></li>
+                            <li>puzzles <i class="fa-arrow-circle-left fa"></i></li>  
+                            <li>logic games <i class="fa-arrow-circle-left fa"></i></li>
+                            <li>asking questions <i class="fa-arrow-circle-left fa"></i></li>
+                            <li><a href="https://www.battle-brothers.co.uk/wp-content/uploads/2016/11/need-more-input.jpg">information junkie </a><i class="fa-arrow-circle-left fa"></i></li>
+                            <div class="small-space"></div>  
+
+                            <li><u>Projects</u></li>
+                            <li>writing analytical papers <i class="fa-arrow-circle-left fa"></i></li>
+                            <li>creating projects for students <i class="fa-arrow-circle-left fa"></i></li>
+                            <div class="small-space"></div>  
+
+                            <li><u>Travel</u></li>
+
+                            <li></i> understanding people and <i class="fa-arrow-circle-left fa"></i><br>different ways of doing things </li>
+                            <li></i> cultures, architecture, food <i class="fa-arrow-circle-left fa"></i></li>
+                            <li></i> new and interesting <i class="fa-arrow-circle-left fa"></i></li>
+                        </ul>
+                        
+                    </div>
+      
+                    <div class="circle cir3">
+                        <div class="circle cir3Mid">
+                        <div class="wordWrapperMid">
+                            <ul>
+                                <li>fun</li>
+                                <li>logical</li>
+                                <li>puzzling</li>
+                                <li>organized</li>
+                                <li>problem solving</li>
+                                <li><a href="https://images-na.ssl-images-amazon.com/images/I/511CYVo9TDL._SX370_BO1,204,203,200_.jpg">stretches the little grey cells to the max</a></li>
+                            </ul>
+                            <p>Web Dev</p>
+                            
+                            <ul>
+                                <li>creating productivty products</li>
+                                <li>building aps</li>
+                            </ul>
+                        </div></div>
+                    </div>
+
+                    <div class="circle cir2">
+                        <div class="wordWrapper ww2">
+                            <div id="circleText2"></div>
+                        </div>
+                        <div class="shapeCircle sc2"></div>
+                
+                        <ul class="dw2">
+                            <li><u>Coding Bootcamp</u></li>
+                            <li> <i class="fa fa-arrow-circle-right"></i> web dev collaboration</li>
+                            <li><i class="fa-arrow-circle-right fa"></i> learn and implement language <br>basics quickly</li>
+                            <li><i class="fa-arrow-circle-right fa"></i> hone front and backend skills</li>
+                            <div class="small-space"></div>  
+
+                            <li><u>Teaching</u></li>
+                            <li><i class="fa fa-arrow-circle-right"></i> break things down into manageable, well-thought-out steps</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> juggle multiple projects at once</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> time management and efficiency</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> data analysis  influences work</li>
+                            <div class="small-space"></div>
+
+                            <li><u>Building Furniture</u></li>
+                            <li><i class="fa fa-arrow-circle-right"></i> following complex directions</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> attention to detail</li>
+                            <div class="small-space"></div>
+
+                            <li><u>Writing Degree</u></li>
+                            <li><i class="fa fa-arrow-circle-right"></i> good communication</li>
+                            <!-- <li></li> -->
+                        </ul>
+                    </div>
+
+                </div>
 
                 <div class="divider">
                     <hr>
@@ -276,32 +412,32 @@
                     <a href="https://stackoverflow.com/users/8871239/kris-acker-bierma" class="fab fa-stack-overflow fa-lg" target="_blank"
                     alt="Stack Overflow icon leads to Kris's Stack Overflow page"></a>
                     <script type="text/javascript">
-                                //<![CDATA[
-                                <!--
-                                var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-                                "=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-                                "o.substr(0,ol);}f(\")95,\\\"IAKFLS230\\\\200\\\\610\\\\FTGFEDCBA@771\\\\~}|" +
-                                "{zyxwvutsrqp!220\\\\?020\\\\u$(84iy!610\\\\b-)^Sx200\\\\130\\\\fM@RBE]G^^_[" +
-                                "410\\\\q120\\\\XYHDD600\\\\KESQ530\\\\000\\\\?>=<;:9876543210/.-,+*)('&%j_p" +
-                                "]>730\\\\R@EX%420\\\\630\\\\720\\\\030\\\\120\\\\S620\\\\730\\\\520\\\\430\\"+
-                                "\\N200\\\\030\\\\K700\\\\010\\\\230\\\\000\\\\t\\\\720\\\\420\\\\C610\\\\01" +
-                                "0\\\\100\\\\2;}(7/8>22u'=7!?o \\\"\\\\/\\\"\\\\j,8(* 2-700\\\\c430\\\\200\\" +
-                                "\\JQ]330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\420\\\\320\\\\220\\\\" +
-                                "120\\\\020\\\\710\\\\610\\\\r\\\\410\\\\310\\\\n\\\\t\\\\010\\\\700\\\\600\\"+
-                                "\\500\\\\400\\\\300\\\\200\\\\100\\\\000\\\\qBo@9FrvvzwK1N,dji771\\\\m771\\" +
-                                "\\*+T`j(ee\\\"\\\\dp120\\\\120\\\\130\\\\r\\\\420\\\\430\\\\U620\\\\020\\\\" +
-                                "U700\\\\220\\\\420\\\\S,R530\\\\630\\\\r\\\\700\\\\t\\\\IJ;310\\\\n\\\\700\\"+
-                                "\\M610\\\\010\\\\100\\\\29530\\\\=6(<15x&=!9k?;\\\"\\\\$-&h520\\\\u!#7,c#}`" +
-                                "730\\\\630\\\\530\\\\430\\\\330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\" +
-                                "\\420\\\\320\\\\220\\\\120\\\\710\\\\r\\\\310\\\\t\\\\700\\\\500\\\\300\\\\" +
-                                "100\\\\?=;9yIaM1/Wynqon120\\\\010\\\\X$K700\\\\100\\\\120\\\\200\\\\710\\\\" +
-                                "J630\\\\710\\\\000\\\\^@|t443 ;\\\"\\\\9b>&#)7#QX\\\"(f};o nruter};))++y(^)" +
-                                "i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;++y)95<i(fi{)++i;l<i;0=i(rof;h" +
-                                "tgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                               ;
-                                while(x=eval(x));
-                                //-->
-                                //]]>
-                                </script>  
+                        //<![CDATA[
+                        <!--
+                        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+                        "=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+                        "o.substr(0,ol);}f(\")95,\\\"IAKFLS230\\\\200\\\\610\\\\FTGFEDCBA@771\\\\~}|" +
+                        "{zyxwvutsrqp!220\\\\?020\\\\u$(84iy!610\\\\b-)^Sx200\\\\130\\\\fM@RBE]G^^_[" +
+                        "410\\\\q120\\\\XYHDD600\\\\KESQ530\\\\000\\\\?>=<;:9876543210/.-,+*)('&%j_p" +
+                        "]>730\\\\R@EX%420\\\\630\\\\720\\\\030\\\\120\\\\S620\\\\730\\\\520\\\\430\\"+
+                        "\\N200\\\\030\\\\K700\\\\010\\\\230\\\\000\\\\t\\\\720\\\\420\\\\C610\\\\01" +
+                        "0\\\\100\\\\2;}(7/8>22u'=7!?o \\\"\\\\/\\\"\\\\j,8(* 2-700\\\\c430\\\\200\\" +
+                        "\\JQ]330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\420\\\\320\\\\220\\\\" +
+                        "120\\\\020\\\\710\\\\610\\\\r\\\\410\\\\310\\\\n\\\\t\\\\010\\\\700\\\\600\\"+
+                        "\\500\\\\400\\\\300\\\\200\\\\100\\\\000\\\\qBo@9FrvvzwK1N,dji771\\\\m771\\" +
+                        "\\*+T`j(ee\\\"\\\\dp120\\\\120\\\\130\\\\r\\\\420\\\\430\\\\U620\\\\020\\\\" +
+                        "U700\\\\220\\\\420\\\\S,R530\\\\630\\\\r\\\\700\\\\t\\\\IJ;310\\\\n\\\\700\\"+
+                        "\\M610\\\\010\\\\100\\\\29530\\\\=6(<15x&=!9k?;\\\"\\\\$-&h520\\\\u!#7,c#}`" +
+                        "730\\\\630\\\\530\\\\430\\\\330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\" +
+                        "\\420\\\\320\\\\220\\\\120\\\\710\\\\r\\\\310\\\\t\\\\700\\\\500\\\\300\\\\" +
+                        "100\\\\?=;9yIaM1/Wynqon120\\\\010\\\\X$K700\\\\100\\\\120\\\\200\\\\710\\\\" +
+                        "J630\\\\710\\\\000\\\\^@|t443 ;\\\"\\\\9b>&#)7#QX\\\"(f};o nruter};))++y(^)" +
+                        "i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;++y)95<i(fi{)++i;l<i;0=i(rof;h" +
+                        "tgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                               ;
+                        while(x=eval(x));
+                        //-->
+                        //]]>
+                        </script>  
                     
                 </div>  
 

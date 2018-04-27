@@ -13,20 +13,35 @@ $(document).ready(function(){
     var trivia={
         name:"trivia",
         location:$("#trivia"),
-        techs:["javaScript","css"]
+        techs:["javaScript","bootstrap", "jQuery"]
         }
     var train={
         name:"train",
         location:$("#train"),
         techs:["javaScript", "jQuery", "moment", "firebase", "css"]
         }
-    var node={
-        name:"nodejs",
-        location:$("#node"),
+    var veggie={
+        name:"veggie",
+        location:$("#veggie"),
+        techs:["javaScript", "jQuery", "materialize", "firebase"]
+        }
+    var liri={
+        name:"liri",
+        location:$("#liri"),
         techs:["javaScript", "Node.js", "Command-Line"]
         }
-     
-    var portPics=[hangman, crystals, trivia, train, node];
+    var bamazon={
+        name:"bamazon",
+        location:$("#bamazon"),
+        techs:["javaScript", "Node.js", "Command-Line", "MySQL"]
+        }
+    var friendFinder={
+        name:"friendFinder",
+        location:$("#friendFinder"),
+        techs:["javaScript", "jQuery", "Node.js", "Heroku", "Express", "Full Stack", "bootstrap"]
+        }
+
+    var portPics=[hangman, crystals, trivia, train, veggie, liri, bamazon, friendFinder];
     var included;
     var currentBtn;
 
@@ -44,7 +59,7 @@ $(document).ready(function(){
     //show apps using this button's technology
     $(".portButtons, .portColl").on("click", function(){
         currentBtn = this.id;
-                console.log(currentBtn);
+        console.log(currentBtn);
 
         hideBtn(currentBtn);
     });
@@ -104,4 +119,19 @@ $(document).ready(function(){
         $(".portfolio-collapse").collapse("toggle");
     });
 
+    //makes circle text in venn diagram
+    // new CircleType(document.getElementById("circleText")).radius(180);
+    function circleText(text, radius, className, degrees, orig, location){
+        text=text.split("");
+        className=$(location)[className];
+        var deg=degrees/text.length, origin=orig;
+        text.forEach((each) => {
+            each = `<p style='height:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${each}</p>`;
+            className.innerHTML += each;
+            origin += deg;
+        })
+        console.log(className);
+    };
+    circleText("Passions", 300, 0, 55, 290, "#circleText1");
+    circleText("Experiences", 300, 0, 76, 10, "#circleText2");
 })

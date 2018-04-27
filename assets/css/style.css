@@ -116,13 +116,14 @@ a.nav-link:hover{
 .fal-port{color:#9d151a;}
 
 .fab, .fas{
-    /* margin-right:10px; */
     padding:20px;
-    /* color:#4aaaa5; */
     color:#D81E23;
-    /* color:black; */
     font-size:40px;
 }
+
+.fa-arrow-circle-right, .fa-arrow-circle-left{
+    font-size:18px;
+} /*delete not needed*/
 .tooltip{
     position: relative;
     display:inline-block;
@@ -387,6 +388,7 @@ hr{
 .card:hover #li2{transition-delay:.2s;}
 .card:hover #li3{transition-delay:.4s;}
 .card:hover #li4{transition-delay:.6s;}
+.card:hover #li5{transition-delay:.8s;}
 
 .card:hover .card-img-overlay{
     display:none;
@@ -414,6 +416,130 @@ hr{
 #mission{
     display:none;
 }
+
+/* building things venn diagram */
+.circleWrapper{
+    margin-bottom:700px;
+    position:relative;
+    max-width:1094px;
+}
+.circle{
+    height:600px;
+    width:600px;
+    border-radius:50%;
+    position: absolute;
+    transition: opacity .2s;
+}
+.cir3{
+    overflow: hidden;
+    left:50px;
+}
+.cir3Mid{
+    z-index: 15;
+    background-color:#9d151a;
+    left:376px
+}
+.cir3Mid:hover{
+    opacity: 1;
+    background-color:#D81E23;
+}
+.cir3Mid:hover ul{
+    display:block;
+    color:black;
+}
+/* .cir3Mid:hover p{display:inline;} */
+.cir1{
+    background-color:#128C0C;
+    z-index: 10;
+    left:50px;
+    text-align: right;
+}
+.cir1:hover{
+    opacity: 1;
+    background-color:#42BC3C;
+}
+.cir1:hover ul {display:block;}
+
+.cir2{
+    /* background-color:#77d4d0; */
+    background-color:#2D8D89;
+
+    left:426px;
+}
+.cir2:hover{
+    opacity: 1;
+    background-color:#77d4d0;
+    /* background-color:#2D8D89; */
+}
+.cir2:hover ul{display:block;}
+.small-space{margin-bottom:18px;}
+
+/* venn diagram text */
+.wordWrapper{
+    position: absolute;
+}
+#circleText1, #circleText2{
+    position: absolute;
+    left:300px;
+}
+.circle p {
+    opacity:1;
+    color:white;
+    font-size: 24px;
+}
+/* .cir3Mid p{display:none;} */
+ul{
+    font-size:18px;
+    /* display: none; */
+    font-weight: 600;
+    color:black;
+}
+.wordWrapperMid ul{
+    font-size:20px;
+    /* color:white; */
+}
+/* .wordWrapperMid ul a{color:white;} */
+li a{
+    text-decoration: none;
+    color:black;
+}
+/* .extraSpace{margin-left:2px;} */
+.wordWrapperMid{
+    top:95px;
+    left:12px;
+    position: absolute;
+    text-align: center;
+    width:200px;
+}
+.shapeCircle{
+    height:600px;
+    width:600px;
+}
+.sc1{
+    float:right;
+    shape-outside: circle(50% at 661px 298px);
+}
+.sc2{
+    float:left;
+    shape-outside: circle(50% at -64px 300px);
+}
+.sc2Outside{
+    float:right;
+
+}
+.descriptiveWords{
+    /* margin-top:100px; */
+}
+.dw1{
+    margin-top:100px;
+    width:575px;
+
+}
+.dw2{
+    margin-top:61px;
+    width:575px;
+}
+
 
 @media screen and (max-width:910px){
     .profilePic{
