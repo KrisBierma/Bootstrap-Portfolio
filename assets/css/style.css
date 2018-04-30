@@ -557,7 +557,7 @@ li a{
         justify-content: left;
     } */
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
     .profilePic{
         float: left;
         margin-right:15px;}
@@ -568,30 +568,48 @@ li a{
     .aside{
         margin-right:0;
     }
-    /* hr{
-        display: none;
-    } */
-    /* .scrollBody1{
-        width:240px;
-        margin:auto;
+    .circle, .shapeCircle{
+        height: 540px;
+        width: 475px;
     }
-    .scrolling2{
-        display:none;
+    .cir1{
+        left:0;
     }
-    #mission{
-        display:block;
-        text-align: center;
+    .cir2{
+        left:220px;
     }
-    .change{
-        display: inherit;
-    } */
-    /* portfolio menu section */
-    /* .btn-collapse{
-        display:inline-block; 
+    .cir3{
+        left:-2px;
     }
-    .sectionPort{
-        justify-content: left;
-    } */
+    .cir3Mid{
+        left:226px;
+    }
+    #circleText1{
+        left:287px;
+        top:-21px;
+    }
+    #circleText2{
+        left:188px;
+    }
+    .wordWrapperMid{
+        top:62px;
+        left:24px;
+    }
+    .sc1{
+        shape-outside:circle(50% at 456px 235px);
+    }
+    .sc2{
+        shape-outside: circle(50% at 11px 271px);
+    }
+    .dw1{
+        margin-top:47px;
+        /* width: */
+    }
+    .dw2{
+        width:458px;
+        margin-top:26px;
+    }
+    ul, .wordWrapper ul{font-size:16px;}
 }
 @media screen and (max-width:576px){
     .navbar-brand{
