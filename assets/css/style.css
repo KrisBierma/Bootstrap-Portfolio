@@ -557,7 +557,7 @@ li a{
         justify-content: left;
     } */
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .profilePic{
         float: left;
         margin-right:15px;}
@@ -569,47 +569,54 @@ li a{
         margin-right:0;
     }
     .circle, .shapeCircle{
-        height: 540px;
-        width: 475px;
+        height: 620px;
+        width: 436px;
     }
     .cir1{
         left:0;
     }
     .cir2{
-        left:220px;
+        left:223px;
     }
     .cir3{
-        left:-2px;
+        left:-1px;
     }
     .cir3Mid{
         left:226px;
     }
     #circleText1{
-        left:287px;
-        top:-21px;
+        left:302px;
+        top:-23px;
+        /* display: none; */
     }
     #circleText2{
-        left:188px;
+        left:145px;
+        top:-8px;
+        /* display: none; */
     }
     .wordWrapperMid{
-        top:62px;
-        left:24px;
+        top:73px;
+        left:4px;
     }
     .sc1{
-        shape-outside:circle(50% at 456px 235px);
+        /* shape-outside:circle(50% at 456px 235px); */
+        shape-outside: ellipse(111px 222px at 76% 48%);
+
     }
     .sc2{
-        shape-outside: circle(50% at 11px 271px);
+        shape-outside: ellipse(111px 262px at 24% 50%);
     }
     .dw1{
-        margin-top:47px;
-        /* width: */
+        margin-top:75px;
+        padding-left:10px;
     }
     .dw2{
         width:458px;
         margin-top:26px;
+        padding-right:55px;
     }
     ul, .wordWrapper ul{font-size:16px;}
+    .small-space{margin-bottom:8px;}
 }
 @media screen and (max-width:576px){
     .navbar-brand{
