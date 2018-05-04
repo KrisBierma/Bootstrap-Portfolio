@@ -557,7 +557,7 @@ li a{
         justify-content: left;
     } */
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     .profilePic{
         float: left;
         margin-right:15px;}
@@ -601,7 +601,6 @@ li a{
     .sc1{
         /* shape-outside:circle(50% at 456px 235px); */
         shape-outside: ellipse(111px 222px at 76% 48%);
-
     }
     .sc2{
         shape-outside: ellipse(111px 262px at 24% 50%);
@@ -618,6 +617,7 @@ li a{
     ul, .wordWrapper ul{font-size:16px;}
     .small-space{margin-bottom:8px;}
 }
+
 @media screen and (max-width:576px){
     .navbar-brand{
         width:100%; 
@@ -661,6 +661,55 @@ li a{
     }
     .sectionPort{
         justify-content: left;
+    }
+
+    /* Venn diagrams */
+    .circle{
+        width:320px;
+        height:774px;
+        border-radius: 12%;
+    }
+    .cir2{
+        left:0;
+        top:404px;
+        height:820px;
+    }
+    .cir3Mid{
+        left:0;
+        top:380px;
+    }
+    .cir3{
+        left:0;
+    }
+    .wordWrapperMid{
+        top:11px;
+        left:56px;
+    }
+    .shapeCircle{display: none;}
+    #circleText1, #circleText2{display: none;}
+    #circleText111{
+        position: absolute;
+        left:160px;
+    }
+    #circleText222{
+        position: absolute;
+        left:160px;
+        top:367px
+    }
+    .dw1{
+        margin-top:40px;
+        width:320px;
+        text-align: center;
+    }
+    .dw2{
+        width:320px;
+        text-align: center;
+        margin-top:400px;
+        padding-right:0;
+    }
+    .circleWrapper{margin-bottom:1350px;}
+    .fa-arrow-circle-left, .fa-arrow-circle-right{
+        display: none;
     }
 }
     

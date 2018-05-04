@@ -134,4 +134,7 @@ $(document).ready(function(){
     };
     circleText("Passions", 300, 0, 55, 290, "#circleText1");
     circleText("Experiences", 300, 0, 76, 10, "#circleText2");
+
+    circleText("Passions", 250, 0, 70, 328, "#circleText111");
+    circleText("Experiences", 290, 0, 70, 327, "#circleText222");
 })
