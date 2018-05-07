@@ -105,6 +105,11 @@ a.nav-link:hover{
     background-color:#9d151a;
     color:white;
 }
+.pip{
+    color:white;
+    display:block;
+    padding:.5rem .5rem;
+}
 .nav-pills .nav-link.active{
     background-color:#D81E23;
     box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2), 2px 5px 10px 0 rgba(0, 0, 0, 0.19);
@@ -306,6 +311,8 @@ hr{
 .btn{
     background-color:#D81E23; 
     color:white;
+    box-shadow:0 3px 0 0 black;
+
 }
 /* .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active{
     background-color: #056C00;
@@ -595,7 +602,7 @@ li a{
         left:4px;
     }
     .sc1{
-        shape-outside: ellipse(111px 222px at 76% 48%);
+        shape-outside: ellipse(111px 222px at 76% 49%);
     }
     .sc2{
         shape-outside: ellipse(135px 265px at 19% 50%);

@@ -133,7 +133,7 @@ $(document).ready(function(){
             className.innerHTML += each;
             origin += deg;
         })
-        console.log(className);
+        // console.log(className);
     };
     circleText("Passions", 300, 0, 55, 290, "#circleText1");
     circleText("Experiences", 300, 0, 76, 10, "#circleText2");
