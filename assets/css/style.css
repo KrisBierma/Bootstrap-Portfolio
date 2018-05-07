@@ -482,6 +482,9 @@ hr{
     position: absolute;
     left:300px;
 }
+#circleText11, #circleText22{display:none;}
+#circleText111, #circleText222{display:none;}
+
 .circle p {
     opacity:1;
     color:white;
@@ -550,6 +553,9 @@ li a{
     .btn-group{
         display: none;
     }
+    #circleText111, #circleText222{display:none;}
+    #circleText11, #circleText22{display:none;}
+
     /* .btn-collapse{
         display:inline-block; 
     } */
@@ -587,12 +593,24 @@ li a{
     #circleText1{
         left:302px;
         top:-23px;
-        /* display: none; */
+        display: none;
     }
     #circleText2{
         left:145px;
         top:-8px;
-        /* display: none; */
+        display: none;
+    }
+    #circleText22{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11, #circleText22{
+        display:inline;
+        position: absolute;
     }
     .wordWrapperMid{
         top:73px;
@@ -603,7 +621,7 @@ li a{
         shape-outside: ellipse(111px 222px at 76% 48%);
     }
     .sc2{
-        shape-outside: ellipse(111px 262px at 24% 50%);
+        shape-outside: ellipse(135px 265px at 19% 50%);
     }
     .dw1{
         margin-top:75px;
@@ -611,7 +629,7 @@ li a{
     }
     .dw2{
         width:458px;
-        margin-top:26px;
+        margin-top:37px;
         padding-right:55px;
     }
     ul, .wordWrapper ul{font-size:16px;}
@@ -687,19 +705,23 @@ li a{
     }
     .shapeCircle{display: none;}
     #circleText1, #circleText2{display: none;}
+    #circleText11, #circleText22{display:none;}
     #circleText111{
         position: absolute;
         left:160px;
+        display:inline;
     }
     #circleText222{
         position: absolute;
         left:160px;
-        top:367px
+        top:367px;
+        display: inline;
     }
     .dw1{
         margin-top:40px;
         width:320px;
         text-align: center;
+        padding: 0 2px;
     }
     .dw2{
         width:320px;
