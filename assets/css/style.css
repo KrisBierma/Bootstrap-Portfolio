@@ -83,7 +83,7 @@ label{
     background-color:#D81E23;
     padding:.3125rem;
 }
-h1:hover{color:black;}
+/* h1:hover{color:black;} */
 
 .navbar{
     padding:0px;
@@ -419,9 +419,12 @@ hr{
 
 /* building things venn diagram */
 .circleWrapper{
-    margin-bottom:700px;
+    /* margin-bottom:700px; */
     position:relative;
-    max-width:1094px;
+    /* max-width:1094px; */
+    width: 975px;
+    height:650px;
+    margin:auto;
 }
 .circle{
     height:600px;
@@ -432,7 +435,7 @@ hr{
 }
 .cir3{
     overflow: hidden;
-    left:50px;
+    /* left:50px; */
 }
 .cir3Mid{
     z-index: 15;
@@ -451,7 +454,7 @@ hr{
 .cir1{
     background-color:#128C0C;
     z-index: 10;
-    left:50px;
+    /* left:50px; */
     text-align: right;
 }
 .cir1:hover{
@@ -464,7 +467,7 @@ hr{
     /* background-color:#77d4d0; */
     background-color:#2D8D89;
 
-    left:426px;
+    left:376px;
 }
 .cir2:hover{
     opacity: 1;
@@ -545,6 +548,10 @@ li a{
 
 @media screen and (max-width:1400px){
     /* .circle{background-color:pink;  } */
+    .circleWrapper{
+        width:658px;
+        height:650px;
+    }
     .circle, .shapeCircle{
         height: 620px;
         width: 436px;
@@ -559,7 +566,7 @@ li a{
         left:-1px;
     }
     .cir3Mid{
-        left:226px;
+        left:225px;
     }
     #circleText1{
         left:302px;
@@ -616,7 +623,7 @@ li a{
         display: none;
     }
     #circleText111, #circleText222{display:none;}
-    #circleText11, #circleText22{display:none;}
+    /* #circleText11, #circleText22{display:none;} */
 
     .btn-collapse{
         display:inline-block; 
@@ -804,6 +811,11 @@ li a{
     }
 
     /* Venn diagrams */
+    .circleWrapper{
+        width:320px;
+        height:1250px;
+        margin:auto;
+    }
     .circle{
         width:320px;
         height:774px;
@@ -851,7 +863,6 @@ li a{
         margin-top:400px;
         padding-right:0;
     }
-    .circleWrapper{margin-bottom:1350px;}
     .fa-arrow-circle-left, .fa-arrow-circle-right{
         display: none;
     }

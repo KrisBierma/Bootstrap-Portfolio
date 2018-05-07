@@ -97,7 +97,7 @@ $(document).ready(function(){
 
     //show "to the top" button when scrolling
     window.onscroll=function(){
-        if (document.documentElement.scrollTop > 500){
+        if (document.documentElement.scrollTop > 500 || ontouchmove){
             $("#topBtn").addClass("topBtnShow").removeClass("hide");
         }
         else {
