@@ -520,11 +520,11 @@ li a{
 }
 .sc1{
     float:right;
-    shape-outside: circle(50% at 661px 298px);
+    shape-outside: circle(50% at 671px 298px);
 }
 .sc2{
     float:left;
-    shape-outside: circle(50% at -64px 300px);
+    shape-outside: circle(50% at -72px 300px);
 }
 .sc2Outside{
     float:right;
@@ -540,40 +540,11 @@ li a{
 }
 .dw2{
     margin-top:61px;
-    width:575px;
+    width:552px;
 }
 
-
-@media screen and (max-width:910px){
-    .profilePic{
-        display:block;
-        float:none;
-        margin:auto;
-    }
-    .btn-group{
-        display: none;
-    }
-    #circleText111, #circleText222{display:none;}
-    #circleText11, #circleText22{display:none;}
-
-    /* .btn-collapse{
-        display:inline-block; 
-    } */
-    /* .sectionPort{
-        justify-content: left;
-    } */
-}
-@media screen and (max-width:768px){
-    .profilePic{
-        float: left;
-        margin-right:15px;}
-    .article{
-        margin-bottom:20px;
-        margin-right:0;
-    }
-    .aside{
-        margin-right:0;
-    }
+@media screen and (max-width:1400px){
+    /* .circle{background-color:pink;  } */
     .circle, .shapeCircle{
         height: 620px;
         width: 436px;
@@ -617,7 +588,6 @@ li a{
         left:4px;
     }
     .sc1{
-        /* shape-outside:circle(50% at 456px 235px); */
         shape-outside: ellipse(111px 222px at 76% 48%);
     }
     .sc2{
@@ -634,6 +604,158 @@ li a{
     }
     ul, .wordWrapper ul{font-size:16px;}
     .small-space{margin-bottom:8px;}
+}
+
+@media screen and (max-width:910px){
+    .profilePic{
+        display:block;
+        float:none;
+        margin:auto;
+    }
+    .btn-group{
+        display: none;
+    }
+    #circleText111, #circleText222{display:none;}
+    #circleText11, #circleText22{display:none;}
+
+    .btn-collapse{
+        display:inline-block; 
+    }
+    /* .sectionPort{
+        justify-content: left;
+    } */
+    /* .circle, .shapeCircle{
+        height: 620px;
+        width: 436px;
+    }
+    .cir1{
+        left:0;
+    }
+    .cir2{
+        left:223px;
+    }
+    .cir3{
+        left:-1px;
+    }
+    .cir3Mid{
+        left:226px;
+    }
+    #circleText1{
+        left:302px;
+        top:-23px;
+        display: none;
+    }
+    #circleText2{
+        left:145px;
+        top:-8px;
+        display: none;
+    }
+    #circleText22{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11, #circleText22{
+        display:inline;
+        position: absolute;
+    }
+    .wordWrapperMid{
+        top:73px;
+        left:4px;
+    }
+    .sc1{
+        shape-outside: ellipse(111px 222px at 76% 48%);
+    }
+    .sc2{
+        shape-outside: ellipse(135px 265px at 19% 50%);
+    }
+    .dw1{
+        margin-top:75px;
+        padding-left:10px;
+    }
+    .dw2{
+        width:458px;
+        margin-top:37px;
+        padding-right:55px;
+    }
+    ul, .wordWrapper ul{font-size:16px;}
+    .small-space{margin-bottom:8px;} */
+    
+}
+@media screen and (max-width:768px){
+    .profilePic{
+        float: left;
+        margin-right:15px;}
+    .article{
+        margin-bottom:20px;
+        margin-right:0;
+    }
+    .aside{
+        margin-right:0;
+    }
+    /* .circle, .shapeCircle{
+        height: 620px;
+        width: 436px;
+    }
+    .cir1{
+        left:0;
+    }
+    .cir2{
+        left:223px;
+    }
+    .cir3{
+        left:-1px;
+    }
+    .cir3Mid{
+        left:226px;
+    }
+    #circleText1{
+        left:302px;
+        top:-23px;
+        display: none;
+    }
+    #circleText2{
+        left:145px;
+        top:-8px;
+        display: none;
+    }
+    #circleText22{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11{
+        left:220px;
+        top:-6px;
+    }
+    #circleText11, #circleText22{
+        display:inline;
+        position: absolute;
+    }
+    .wordWrapperMid{
+        top:73px;
+        left:4px;
+    }
+    .sc1{ */
+        /* shape-outside:circle(50% at 456px 235px); */
+        /* shape-outside: ellipse(111px 222px at 76% 48%);
+    }
+    .sc2{
+        shape-outside: ellipse(135px 265px at 19% 50%);
+    }
+    .dw1{
+        margin-top:75px;
+        padding-left:10px;
+    }
+    .dw2{
+        width:458px;
+        margin-top:37px;
+        padding-right:55px;
+    }
+    ul, .wordWrapper ul{font-size:16px;}
+    .small-space{margin-bottom:8px;} */
 }
 
 @media screen and (max-width:576px){
