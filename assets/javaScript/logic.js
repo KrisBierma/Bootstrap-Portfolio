@@ -97,13 +97,16 @@ $(document).ready(function(){
 
     //show "to the top" button when scrolling
     window.onscroll=function(){
-        if (document.documentElement.scrollTop > 500 || ontouchmove){
+        if (document.documentElement.scrollTop > 500){
             $("#topBtn").addClass("topBtnShow").removeClass("hide");
         }
         else {
             $("#topBtn").addClass("hide").removeClass("topBtnShow");
         }
     }
+    $(document).on("scrollstart", function(){
+        $("#topBtn").addClass("topBtnShow").removeClass("hide");
+    });
 
     //take user to the top of the page
     $("#topBtn").on("click", function(){
