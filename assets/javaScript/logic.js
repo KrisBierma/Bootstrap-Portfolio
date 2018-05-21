@@ -40,8 +40,13 @@ $(document).ready(function(){
         location:$("#friendFinder"),
         techs:["javaScript", "jQuery", "Node.js", "Heroku", "Express", "Full Stack", "bootstrap"]
         }
+    var plantos={
+        name:"plantos",
+        location:$("#plantos"),
+        techs:["javaScript", "jQuery", "Node.js", "Express", "MySQL", "Sequelize", "passport", "moment", "handlebars", "bootstrap", "Heroku", "Full Stack"]
+        }
 
-    var portPics=[hangman, crystals, trivia, train, veggie, liri, bamazon, friendFinder];
+    var portPics=[hangman, crystals, trivia, train, veggie, liri, bamazon, friendFinder, plantos];
     var included;
     var currentBtn;
 

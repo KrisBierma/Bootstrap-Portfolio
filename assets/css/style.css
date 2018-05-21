@@ -37,11 +37,6 @@ h4{
 .scrollBody1, .scrollBody2{
     display:flex;
 }
-/* .scrolling{
-    overflow: hidden;
-    white-space:nowrap;
-} */
-/* Hi I'm Kris */
 .scrolling1{
     margin-top:5px;
     animation:typing 3s steps(100, end);
@@ -83,8 +78,6 @@ label{
     background-color:#D81E23;
     padding:.3125rem;
 }
-/* h1:hover{color:black;} */
-
 .navbar{
     padding:0px;
     background-color:#D81E23;
@@ -94,11 +87,6 @@ label{
     box-shadow: 0 8px 6px -6px #999;
 }
 #navColl{justify-content: flex-end;}
-
-/* .nav{
-    display: inline;
-    color:white;
-} */
 
 a.nav-link {color:white;}
 a.nav-link:hover{
@@ -132,13 +120,11 @@ a.nav-link:hover{
 .tooltip{
     position: relative;
     display:inline-block;
-    /* border-bottom: 1px dotted black; */
     opacity: 1;
 }
 .tooltip .tooltiptext {
     visibility: hidden;
     width:100px;
-    /* background-color:#4aaaa5; */
     background-color: black;
     color:white;
     font-size:16px;
@@ -190,12 +176,10 @@ a:hover{
 }
 .article{
     background-color:#f5f5f5;
-    /* background-color:#fbfbfb; */
     border: 1px solid #eee;
     padding:15px;
     margin-right:15px;
     margin-bottom:200px;
-    /* border:1px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -204,7 +188,6 @@ a:hover{
 }
 
 .sectionHome{
-    /* background-color:yellow; */
     margin-top:35px;
     margin-bottom:40px;
 }
@@ -230,7 +213,6 @@ a:hover{
     padding:15px;
     margin-bottom:auto;
     margin-right:40px;
-    /* border:1px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -296,12 +278,6 @@ hr{
     width:305px;
     display:block;
 }
-/* .stay{
-    position: absolute;
-    top:0;
-    right:0;
-    left:0;
-} */
 .hide{
     display:none;
 }
@@ -347,7 +323,6 @@ hr{
 
 .stay{
     position: absolute;
-    /* top:0; */
     top:20%;
     right:0;
     left:0;
@@ -357,9 +332,7 @@ hr{
 /* portfolio language tags wrapper */
 .port-tags-wrapper{
     position: relative;
-    /* display:flex; */
     flex-wrap:wrap;
-    /* align-items: center; */
     text-align:center;
 }
 /* individual port tags */
@@ -371,7 +344,6 @@ hr{
     box-shadow:         1px 1px 0 black;
     display:inline-block;
     opacity: 0;
-    /* margin:20px auto; */
     margin:2px;
     font-size: 22px;
     padding:0 8px 3px 8px;
@@ -396,6 +368,12 @@ hr{
 .card:hover #li3{transition-delay:.4s;}
 .card:hover #li4{transition-delay:.6s;}
 .card:hover #li5{transition-delay:.8s;}
+.card:hover #li6{transition-delay:1.0s;}
+.card:hover #li7{transition-delay:1.2s;}
+.card:hover #li8{transition-delay:1.4s;}
+.card:hover #li9{transition-delay:1.6s;}
+.card:hover #li10{transition-delay:1.8s;}
+.card:hover #li11{transition-delay:2.0s;}
 
 .card:hover .card-img-overlay{
     display:none;
