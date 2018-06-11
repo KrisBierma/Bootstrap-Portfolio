@@ -320,10 +320,21 @@ hr{
 .far{
     color:white;
 }
-
+.myIcons{
+    height:18px;
+}
+.myIcons2{
+    height:42px;
+}
+.myIcons3{
+    height:35px;
+}
+.myIcons4{
+    height:25px;
+}
 .stay{
     position: absolute;
-    top:20%;
+    top:-1%;
     right:0;
     left:0;
     height:100%;
@@ -530,6 +541,9 @@ li a{
     margin-top:61px;
     width:552px;
 }
+/* .dw1 li:hover, .dw2 li:hover, .wordWrapperMid li:hover{
+    font-size:30px;
+} */
 
 @media screen and (max-width:1400px){
     /* .circle{background-color:pink;  } */

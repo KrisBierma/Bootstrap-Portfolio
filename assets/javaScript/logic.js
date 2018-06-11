@@ -45,8 +45,18 @@ $(document).ready(function(){
         location:$("#plantos"),
         techs:["javaScript", "jQuery", "Node.js", "Express", "MySQL", "Sequelize", "passport", "moment", "handlebars", "bootstrap", "Heroku", "Full Stack"]
         }
+    var mongoScraper={
+        name:"mongoScraper",
+        location:$("#mongoScraper"),
+        techs:["javaScript", "jQuery", "Node.js", "Express", "Mongo", "Mongoose", "handlebars", "bootstrap", "Heroku", "Full Stack"]
+        }
+    var reactGame={
+        name:"reactGame",
+        location:$("#reactGame"),
+        techs:["javaScript", "react", "bootstrap", "npm", "github-pages"]
+        }
 
-    var portPics=[hangman, crystals, trivia, train, veggie, liri, bamazon, friendFinder, plantos];
+    var portPics=[hangman, crystals, trivia, train, veggie, liri, bamazon, friendFinder, plantos, mongoScraper, reactGame];
     var included;
     var currentBtn;
 
