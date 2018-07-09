@@ -521,9 +521,9 @@ li a{
 .dw1 li, .dw2 li, .wordWrapperMid li{
     z-index:30;
 }
-.dw1 li:hover, .dw2 li:hover, .wordWrapperMid li:hover{
+/* .dw1 li:hover, .dw2 li:hover, .wordWrapperMid li:hover{
     font-size:30px;
-}
+} */
 
 @media screen and (max-width:1400px){
     .circleWrapper{
