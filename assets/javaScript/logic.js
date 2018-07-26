@@ -62,12 +62,10 @@ $(document).ready(function(){
 
     //show all apps on all button
     $("#all").on("click", function(){
-        console.log("work");
         showBtn();
     });
 
     $("#allHamburger").on("click", function(){
-        console.log("work");
         showBtn();
     });
 
