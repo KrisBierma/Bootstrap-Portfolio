@@ -552,15 +552,15 @@ li a{
 }
 
 .topPyramid{
-    background-color: #c4e052;
+    background-color: #8AB72A;
     width: 50%;
 }
 .middlePyramid{
-    background-color: #a3c322;
+    background-color: #319b96;
     width: 80%;
 }
 .bottomPyramid{
-    background-color: #6d8217;
+    background-color: #D69820;
 }
 
 @media screen and (max-width:1400px){
