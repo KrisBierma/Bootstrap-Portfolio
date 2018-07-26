@@ -525,6 +525,44 @@ li a{
     font-size:30px;
 } */
 
+/* pyramid styling */
+.pyramidWrapper{
+
+}
+.pyramidTitle{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 4px;  
+    text-shadow: 2px 2px 4px #000000; 
+}
+.pyramidList{
+    /* margin:0; */
+}
+.pyramidList li {
+    text-align: center;
+    font-size: 20px;
+}
+
+.topPyramid, .middlePyramid, .bottomPyramid{
+    margin:auto;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    box-shadow: 8px 8px 3px 1px grey;
+}
+
+.topPyramid{
+    background-color: #c4e052;
+    width: 50%;
+}
+.middlePyramid{
+    background-color: #a3c322;
+    width: 80%;
+}
+.bottomPyramid{
+    background-color: #6d8217;
+}
+
 @media screen and (max-width:1400px){
     .circleWrapper{
         width:658px;
