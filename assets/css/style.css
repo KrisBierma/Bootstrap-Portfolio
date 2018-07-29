@@ -244,7 +244,7 @@ hr{
 }
 
 .port-grid{
-    display:contents;
+    display:flex;
     flex-wrap:wrap;
     position: relative;
 }

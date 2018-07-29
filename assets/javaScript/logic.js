@@ -137,23 +137,23 @@ $(document).ready(function(){
 
     //makes circle text in venn diagram
     // new CircleType(document.getElementById("circleText")).radius(180);
-    function circleText(text, radius, className, degrees, orig, location){
-        text=text.split("");
-        className=$(location)[className];
-        var deg=degrees/text.length, origin=orig;
-        text.forEach((each) => {
-            each = `<p style='height:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${each}</p>`;
-            className.innerHTML += each;
-            origin += deg;
-        })
+    // function circleText(text, radius, className, degrees, orig, location){
+    //     text=text.split("");
+    //     className=$(location)[className];
+    //     var deg=degrees/text.length, origin=orig;
+    //     text.forEach((each) => {
+    //         each = `<p style='height:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${each}</p>`;
+    //         className.innerHTML += each;
+    //         origin += deg;
+    //     })
         // console.log(className);
-    };
-    circleText("Passions", 300, 0, 55, 290, "#circleText1");
-    circleText("Experiences", 300, 0, 76, 10, "#circleText2");
+    // };
+    // circleText("Passions", 300, 0, 55, 290, "#circleText1");
+    // circleText("Experiences", 300, 0, 76, 10, "#circleText2");
 
-    circleText("Passions", 150, 0, 65, 330, "#circleText11");
-    circleText("Experiences", 160, 0, 75, 330, "#circleText22");
+    // circleText("Passions", 150, 0, 65, 330, "#circleText11");
+    // circleText("Experiences", 160, 0, 75, 330, "#circleText22");
 
-    circleText("Passions", 250, 0, 70, 328, "#circleText111");
-    circleText("Experiences", 290, 0, 70, 327, "#circleText222");
+    // circleText("Passions", 250, 0, 70, 328, "#circleText111");
+    // circleText("Experiences", 290, 0, 70, 327, "#circleText222");
 })
